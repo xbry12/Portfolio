@@ -44,7 +44,7 @@ body {
 /* General Styles */
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -215,13 +215,13 @@ header {
 }
 
 .nav-open .hamburger {
-    transform: rotate(.625turn);
+  transform: rotate(0.625turn);
 }
 .nav-open .hamburger::before {
-    transform: rotate(90deg) translateX(-6px); 
+  transform: rotate(90deg) translateX(-6px);
 }
-.nav-open .hamburger::after{
-    opacity: 0;
+.nav-open .hamburger::after {
+  opacity: 0;
 }
 
 .hamburger {
@@ -321,15 +321,19 @@ header {
   margin: 0.5em auto 1em;
   background: var(--clr-light);
   opacity: 0.25;
+
   /* background: currentColor; */
 }
 
 .services {
   margin-bottom: 4em;
+  /* background-color: red; */
+  padding-left: 5rem;
 }
 
 .service {
   max-width: 500px;
+  /* background-color: blue; */
   margin: 0 auto;
 }
 
@@ -469,14 +473,14 @@ header {
 /* Portfolio Item */
 
 .portfolio-item-individual {
-    padding: 0 2em 2em; 
-    max-width: 1000px;
-    margin: 0 auto;
-    /* background-color: red; */
+  padding: 0 2em 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* background-color: red; */
 }
 
 .portfolio-item-individual p {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }

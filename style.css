@@ -417,7 +417,7 @@ header {
 }
 
 .portolfio_item {
-  background: var(--clr-dark);
+  background: var(--clr-accent);
   overflow: hidden;
 }
 

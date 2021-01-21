@@ -505,3 +505,16 @@ a {
     color: var(--clr-accent);
     text-decoration: none;
 }
+
+.projectlink {
+  font-size: 24px;
+}
+
+.projectlink1 {
+  font-size: 14px;
+}
+
+.projectlink:hover {
+  font-size: 30px;
+  color: red;
+}

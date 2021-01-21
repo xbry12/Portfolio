@@ -515,6 +515,7 @@ a {
 }
 
 .projectlink:hover {
-  font-size: 30px;
-  color: red;
+  font-size: 28px;
+  color: var(--clr-light);
+  border: 2px solid var(--clr-accent)
 }

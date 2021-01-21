@@ -128,7 +128,7 @@ h3 {
   margin: 0;
   font-size: var(--fs-h3);
   color: var(--clr-accent);
-  margin-bottom: 1%;
+  margin-bottom: 2%;
 }
 
 .section_subtitle-intro,
@@ -418,11 +418,12 @@ header {
 
 .portolfio_item {
   background: var(--clr-accent);
-  overflow: hidden;
+  overflow: visible;
 }
 
 .portfolio_img {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+  height: 250px;
 }
 
 .portolfio_item:focus {
@@ -507,4 +508,11 @@ header {
 a {
     color: var(--clr-accent);
     text-decoration: none;
+}
+
+.testtext {
+  /* position: relative; */
+  background-color: var(--clr-dark);
+  font-size: 28px;
+  color: var(--clr-light);
 }
